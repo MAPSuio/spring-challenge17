@@ -1,0 +1,19 @@
+We first consider the general case of a pyramid constructed only with 2x4s:
+
+
+Find the arithmetic sequence describing the number of bricks
+in a given floor. It is
+
+floor_cost(n) = 2 + 2*(n-1)
+
+The corresponding arithmetic series giving the total cost of a general
+n-floored pyramid is then given by
+
+pyramid_cost = n * (floor_cost(1) + floor_cost(n)) // 2
+
+In our case, the inverse of this function becomes (using Wolfram Alpha)
+
+(1/2) * (-1 +- sqrt(4*y + 1))
+
+when plugging in y=number of 2x4s, we get 50004999 floors. Finally, we add
+the top level (the 2x2) and get 50005000 floors.
