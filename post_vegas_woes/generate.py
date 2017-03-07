@@ -2,7 +2,7 @@
 
 from random import choice, sample, randrange
 
-names = ["Amin", "Pedro", "Joey", "Alex"]
+names = ["Amina", "Pedro", "Joey"]
 
 
 def make_transaction():

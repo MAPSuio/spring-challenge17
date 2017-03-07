@@ -5,7 +5,7 @@ from itertools import combinations
 
 graph = {}
 
-names = ["Amin", "Pedro", "Joey", "Alex"]
+names = ["Amina", "Pedro", "Joey"]
 
 # Build a graph
 for name_a in names:

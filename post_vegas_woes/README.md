@@ -3,7 +3,7 @@
 ![vegas](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Welcome_to_Fabulous_Las_Vegas.jpg/2560px-Welcome_to_Fabulous_Las_Vegas.jpg)
 
 Wow – what a weekend! You're not really sure what happened there, but
-you (Pedro) and your three friends (Alex, Amin and Joey) have arrived
+you (Amina) and your two friends (Pedro and Joey) have arrived
 home from Vegas and the hour of judgement is upon you: As you forgot
 to continuously Vipps each other during the trip, you're stuck with a
 horror-inducingly long list of transactions and the burning question:
@@ -15,8 +15,8 @@ going to spend an awfully long time typing numbers into the app, when in
 reality, only a few large transactions should be needed to settle
 the balance.
 
-*Your task is to simplify the list of 10 000 transactions down to twelve
-(or fewer) transactions*
+It turns out that the balance can be settled with only *two* transactions.
+Which two transactions?
 
 ## Input Format
 
@@ -29,44 +29,29 @@ The input consists of several lines, where each line represents a transaction.
 For example, the entry
 
 ```txt
-Amin-Joey,Alex,Amin,Pedro-5000
+Amina-Joey,Pedro,Amina,-6000
 ```
 
-indicates that Amin paid 5000 for something that benefitted himself,
-Joey, Alex and Pedro. A consequence is that Joey, Alex and Pedro owes Amin
-one fourth of 5000 each.
+indicates that Amina paid 6000 for something that benefitted himself,
+Joey, Pedro and Pedro. A consequence is that Joey and Pedro owe Amina
+one third of 6000 each.
 
-## Answer Format
+## Answer format
 
-You need to submit 12 space-separated integers. Each integer represent
-the amount that X sends to Y, where X and Y are the names in sorted
-order:
-
-1. Alex sends to Amin
-2. Alex sends to Joey
-3. Alex sends to Pedro
-4. Amin sends to Alex
-5. Amin sends to Joey
-6. Amin sends to Pedro
-7. Joey sends to Alex
-8. Joey sends to Amin
-9. Joey sends to Pedro
-10. Pedro sends to Alex
-11. Pedro sends to Amin
-12. Pedro sends to Joey
+Print the transactions separated by a comma, each transaction being on
+the fom "X sends Y amount". Make sure the transactions are sorted by
+amount, from small to large.
 
 ## Example
 
 ```txt
-Amin-Pedro,Amin,Alex,Joey-7776
-Alex-Joey,Amin,Pedro-4965
-Joey-Pedro,Alex-2004
-Pedro-Joey-1176
-Alex-Pedro,Amin,Joey,Alex-3204
-Amin-Alex-1044
-Pedro-Joey,Amin,Alex,Pedro-2044
+Amina-Pedro,Joey-2522
+Joey-Joey,Amina,Pedro-2610
+Joey-Pedro-300
+Pedro-Joey-1038
+Joey-Pedro,Joey,Amina-2652
+Joey-Joey,Amina-3784
+Pedro-Pedro,Amina-1820
 ```
 
-Answer: `532 0 0 0 0 0 1454 1944 685 1945 1433 0`
-
-Note that the one who pays is not necessarily benefitting from that which is bought.
+Solution: `Pedro sends Joey 1367,Amina sends Joey 2034`
