@@ -1,4 +1,4 @@
-* Hack the Gibson
+# Hack the Gibson
 
 ![](http://ninjaselection.com/wp-content/uploads/2016/03/Hackers-1995.jpg)
 
