@@ -16,7 +16,7 @@ reality, only a few large transactions should be needed to settle
 the balance.
 
 It turns out that the balance can be settled with only *two* transactions.
-Which two transactions?
+Your job is to find the two smallest transactions that settles the balance.
 
 ## Input Format
 
@@ -38,9 +38,8 @@ one third of 6000 each.
 
 ## Answer format
 
-Print the transactions separated by a comma, each transaction being on
-the fom "X sends Y amount". Make sure the transactions are sorted by
-amount, from small to large.
+Print the amounts that were sent in the two transactions in sorted
+order, small to large, separated by a space, i.e. `43 55`.
 
 ## Example
 
@@ -53,5 +52,4 @@ Joey-Pedro,Joey,Amina-2652
 Joey-Joey,Amina-3784
 Pedro-Pedro,Amina-1820
 ```
-
-Solution: `Pedro sends Joey 1367,Amina sends Joey 2034`
+Solution: `1367 2034`

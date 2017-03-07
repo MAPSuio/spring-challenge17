@@ -45,11 +45,10 @@ for pair in combinations(sorted(names), 2):
 
         graph[a][b] = 0
 
-result = []
-for name_a in sorted(names):
-    for name_b in sorted(names):
-        if name_a == name_b:
+for m in names:
+    for n in names:
+        if m == n or graph[m][n] == 0:
             continue
-        result.append(graph[name_a][name_b])
+        print(m + " owes " + n + " " + str(graph[m][n]))
 
-print(" ".join(map(str, result)))
+#Solved the resulting triangle analytically
