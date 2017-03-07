@@ -1,4 +1,4 @@
-# Orakelgjengen (wip)
+# Orakelgjengen
 
 Machine Learning is super hot right now, and you're finally getting in on
 the action. You have just been hired by the Oslo-based startup "Orakelgjengen",
@@ -17,8 +17,25 @@ future customers. They do so by requiring that all potential future
 customers provide a data sample that Orakelgjengen can check their
 method on before making any deals. Your task is to determine which
 customers are likely to get interesting predictions from Orakelgjengen
-by scoring how well Orakelgjengen's proposed linear model accounts for
-the variability in the customer's data. You do this by computing the [R
-squared])https://en.wikipedia.org/wiki/Coefficient_of_determination)
-metric for each data set. Orakelgjengen will accept a new customer if
-the R squared metric on the corresponding sample data is at least `0.7`
+by scoring how likely Orakelgjengen's simple linear model will account for
+the variability in the customer's data.
+
+You are given a table on the following form:
+
+| Company id | X      | Y     |
+|------------|--------|-------|
+| A          | 4.322  | 5.33  |
+| A          | 4.433  | 5.49  |
+| ...        | ...    | ...   |
+| B          | 15.67  | 30.23 |
+| B          | 43.201 | 45.45 |
+| ...        | ...    | ...   |
+
+The first column indicates which company the data is associated with.
+The second column gives an X value and the third column gives a Y value.
+
+Your job is to
+
+1. Figure out the *squared*[Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) for each company's dataset, and
+
+2. Submit a sorted, comma-separated list of company names whose sample data has a squared Pearson Correlation Coefficient greater than `0.6`.
