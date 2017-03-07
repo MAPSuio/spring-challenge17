@@ -39,3 +39,33 @@ Your job is to
 1. Figure out the *squared*[Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) for each company's dataset, and
 
 2. Submit a sorted, comma-separated list of company names whose sample data has a squared Pearson Correlation Coefficient greater than `0.6`.
+
+## Example
+
+Table:
+
+```txt
+Company         X               Y
+A               1               1483
+A               2               2282
+A               3               3081
+A               4               6996
+A               5               11999
+A               6               5478
+A               7               6277
+B               1               3068
+B               2               2276
+B               3               2960
+B               4               3644
+B               5               4328
+B               6               5012
+C               1               1198
+C               2               2087
+C               3               2976
+C               4               3865
+C               5               4754
+C               6               14673
+
+```txt
+
+Answer: `B,C`
