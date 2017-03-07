@@ -36,9 +36,11 @@ The second column gives an X value and the third column gives a Y value.
 
 Your job is to
 
-1. Figure out the *squared*[Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) for each company's dataset, and
+1. Figure out the *squared* [Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+for each company's dataset, and
 
-2. Submit a sorted, comma-separated list of company names whose sample data has a squared Pearson Correlation Coefficient greater than `0.6`.
+2. Submit a sorted, comma-separated list of company names whose sample data has a
+squared Pearson Correlation Coefficient greater than `0.6`.
 
 ## Example
 
