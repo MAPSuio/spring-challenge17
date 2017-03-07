@@ -1,5 +1,9 @@
 * IP Freely
 
+#+BEGIN_HTML
+<img align="right" src="https://fossbytes.com/wp-content/uploads/2016/10/localhost-127.0.0.1.jpg" width="500px">
+#+END_HTML
+
 The Internet Protocol defines IPv4 addresses to be 32-bits.
 
 They are usually written in [[https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing][human-readable notation]], but can also be
