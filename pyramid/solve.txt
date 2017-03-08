@@ -15,5 +15,5 @@ In our case, the inverse of this function becomes (using Wolfram Alpha)
 
 (1/2) * (-1 +- sqrt(4*y + 1))
 
-when plugging in y=number of 2x4s, we get 50004999 floors. Finally, we add
-the top level (the 2x2) and get 50005000 floors.
+when plugging in y=number of 2x4s, we get 50005000 floors. Finally, we add
+the top level (the 2x2) and get 50005001 floors.
