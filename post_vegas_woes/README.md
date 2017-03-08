@@ -29,11 +29,11 @@ The input consists of several lines, where each line represents a transaction.
 For example, the entry
 
 ```txt
-Amina-Joey,Pedro,Amina,-6000
+Amina-Joey,Pedro,Amina-6000
 ```
 
 indicates that Amina paid 6000 for something that benefitted himself,
-Joey, Pedro and Pedro. A consequence is that Joey and Pedro owe Amina
+Joey and Pedro. A consequence is that Joey and Pedro owe Amina
 one third of 6000 each.
 
 ## Answer format
