@@ -1,0 +1,25 @@
+mod MILK is
+    including INT .
+    sort Bucket .
+    sort BucketCollection .
+    subsort Bucket < BucketCollection .
+    op _||_ : Nat Nat -> Bucket [ctor] .
+    op nob : -> BucketCollection .
+    op _++_ : BucketCollection BucketCollection -> BucketCollection [ctor id: nob assoc comm] .
+
+    vars C C' : BucketCollection .
+    vars N N' M M' : Int .
+    var Z : NzNat .
+    
+    crl [pour-all] : C ++ (Z || N') ++ (M || M') => C ++ (0 || N') ++ ((Z + M) || M') if (Z + M) <= M' .
+    
+    crl [pour-max] : C ++ (Z || N') ++ (M || M') => C ++ (Z - (M' - M) || N') ++ (M' || M') if (M + Z) > M' .
+
+
+    
+endm
+
+search[1] (500 || 500) ++ (0 || 333) ++ (0 || 100) =>* (250 || 500) ++ (250 || 333) ++ (0 || 100) .
+
+---show path label 855
+---then count lines
