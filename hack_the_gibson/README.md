@@ -16,7 +16,7 @@ You need to find the substitution that encrypted the file below.
 The substitution should be given as a permutation of the alphabet. For
 example: If the substition shifts every letter one to the rigth (that
 is A -> B, B -> C and so on), then the substitution should be given as
-"BCDEFGHIJKLMNOPQRSTUVWXYZ".
+"BCDEFGHIJKLMNOPQRSTUVWXYZA".
 
 ```
 XMZWJTI ZMT LZW NXQLJW WZRXP UWV XAA ZOTI WJT HXHTIV WTTMXLTIXIITVWTR
