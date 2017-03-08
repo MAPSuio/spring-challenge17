@@ -34,9 +34,9 @@ You are given a table on the following form:
 The first column indicates which company the data is associated with.
 The second column gives an X value and the third column gives a Y value.
 
-Your job is to
+Your job is to, given [this table](https://gist.githubusercontent.com/arnet95/a6416de8261cbea229a18e2e6fa697ed/raw/ca119b9ddad2f96d877a4f3e5876dd7995791a69/orakelgjengen_data.txt) of company data
 
-1. Measure the correlation between X and Y in the form of the  *squared* [Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+1. Measure the correlation between X and Y in the form of the  *squared* [sample Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient#For_a_sample)
 for each company's dataset, and
 
 2. Submit a sorted, comma-separated list of company names whose sample data has a
