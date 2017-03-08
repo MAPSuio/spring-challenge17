@@ -29,7 +29,7 @@ The input consists of several lines, where each line represents a transaction.
 For example, the entry
 
 ```txt
-Amina-Joey,Pedro,Amina,-6000
+Amina-Joey,Pedro,Amina-6000
 ```
 
 indicates that Amina paid 6000 for something that benefitted himself,
