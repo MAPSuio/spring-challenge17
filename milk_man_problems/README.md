@@ -1,8 +1,6 @@
-* Milk man problems
+# Milk man problems
 
-#+BEGIN_HTML
 <img align="right" src="http://folk.uio.no/torenord/milk.png" width="500px">
-#+END_HTML
 
 Alle melkemenn er kjent med dette klassiske problemet fra middelalderen:
 
