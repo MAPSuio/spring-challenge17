@@ -2,36 +2,42 @@
 
 <img align="right" src="http://folk.uio.no/torenord/milk.png" width="500px">
 
-Alle melkemenn er kjent med dette klassiske problemet fra middelalderen:
+All milkmen are familiar with this classic problem from the Middle Ages:
 
-Du er ute og leverer melk på din daglige leveringsrunde. De to siste
-på runden skal ha *N* liter melk hver, men du oppdager et
-kjempeproblem! Du har tre melkespann med forskjellig volum, men ingen
-av dem er på *N* liter. Det er ingen markeringer på innsiden av
-melkespannene, slik at du blir nødt til å fordele melken ved å helle
-den frem og tilbake mellom spannene på en eller annen måte. Når du
-heller, heller du alltid til spannet du heller fra er tomt eller
-spannet du heller til er fullt.
+You are on your daily milk delivery route. But when you get to the last
+two people, you discover a major problem! Both of them require 6
+liters, but you only have 12, 8 and 5 liter jugs. The 12 liter jug is
+full of milk however, so if you could figure out a way of pouring from
+jug to jug until you have 6 liters in two of the jugs, you'd be all
+set.
 
-Du har et spann på *A* liter, et på *B* liter og et på *C* liter slik
-at *A > B > C*. Spannet på *A* liter er fullt med melk. Spannene med
-*B* og *C* liter er tomme.
+The difficulty is that there are no markings on the jugs, you only
+know their maximum volume. When you pour, you pour the most possible.
+That is: You pour until either the jug you're pouring from is empty,
+or the one you're pouring to is full.
 
-For eksempel: Du har tre spann på *A = 12*, *B = 8* og *C = 5* liter.
+Since you'll run into this problem everyday on your route, you have
+taken the time to figure out a way to do this. You call the 12, 8 and
+5 jugs A, B and C, respectively. Also, you assume A is full of milk,
+and B, C are empty. Here are the steps you use:
 
-1. Hell 8 liter fra A to B.
-2. Hell 5 liter fra B to C.
-3. Hell 5 liter fra C to A.
-4. Hell 3 liter fra B to C.
-5. Hell 8 liter fra A to B.
-6. Hell 2 liter fra B to C.
-7. Hell 5 liter fra C to A.
+1. Pour 8 liters from A to B.
+2. Pour 5 liters from B to C.
+3. Pour 5 liters from C to A.
+4. Pour 3 liters from B to C.
+5. Pour 8 liters from A to B.
+6. Pour 2 liters from B to C.
+7. Pour 5 liters from C to A.
 
-Nå er det 6 liter i A og 6 liter i B. Det er altså mulig å fordele
-melken likt i 7 steg. For disse spannene er dette faktisk den korteste
-fremgangsmåten.
+Now you have 6 liters in A, 6 liters in B and 0 liters in C. You have
+divided the milk equally and it only took 7 steps! It turns out that
+it is not possible to do it with fewer steps in this case.
 
-Din oppgave er, gitt volumene på *A = 500*, *B = 333*, *C = 100* og at
-*A* er full med melk, og du skal ende opp med *A/2* i ett av spannene
-og *A/2* i et av de andre spannene, hvor mange steg er det i den
-korteste fremgangsmåten for å oppnå dette?
+After solving this problem successfully, you want to help milkmen
+everywhere! You have done the natural thing: You have written a
+computer program.
+
+Now you want to test it on another instance where the volumes of the
+jugs are A = 500, B = 333, C = 100. A is full of milk, B, C are empty.
+Your goal is to have 250 milk in A, 250 in B and 0 in C. What is the
+smallest number of steps needed to accomplish this?
