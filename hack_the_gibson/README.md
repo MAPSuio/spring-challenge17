@@ -8,8 +8,9 @@ placed an encrypted file on your 400MB hard drive.
 
 But don't fear, You is here. Being the security expert that you are,
 you suspect that the file has been encrypted with a simple
-substitution cipher. The alphabet is "ABCDEFGHIJKLMNOPQRSTUVWXYZ" and
-the spaces are as in the original plaintext.
+substitution cipher. The alphabet is "ABCDEFGHIJKLMNOPQRSTUVWXYZ".
+Spaces and line breaks are as in the original plaintext. The plaintext
+is written in English.
 
 You need to find the substitution that encrypted the file below.
 
