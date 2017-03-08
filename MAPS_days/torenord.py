@@ -7,6 +7,6 @@ def maps_days_in_2000s():
         if sum(int(i) for i in str(d.day) + str(d.month)) == sum(int(i) for i in str(d.year)):
             yield d
 
-        d = d + timedelta(1)
+        d += timedelta(1)
 
 print(len(list(maps_days_in_2000s())))
