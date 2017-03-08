@@ -5,7 +5,7 @@ def maps_days_in_2000s():
 
     while d <= datetime.now():
         if sum(int(i) for i in str(d.day) + str(d.month)) == sum(int(i) for i in str(d.year)):
-            yield 1
+            yield d
 
         d = d + timedelta(1)
 
