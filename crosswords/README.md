@@ -13,7 +13,7 @@ Given a [file](https://gist.githubusercontent.com/arnet95/e4526120a65f952a5865cf
 in increasing order (where the order here is the order defined above). Give your answer as a string `s`, where `s` is the 10000th word in the sorted list.
 (For clarification, the first word is the 1st word, not the 0th word)
 
-####Examples
+####Example
 If the file consists of
 ```
 aardvark
