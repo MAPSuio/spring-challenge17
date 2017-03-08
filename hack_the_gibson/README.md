@@ -11,7 +11,12 @@ you suspect that the file has been encrypted with a simple
 substitution cipher. The alphabet is
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".
 
-You need to find the substitution that encrypted the file below?
+You need to find the substitution that encrypted the file below.
+
+The substitution should be given as a permutation of the alphabet. For
+example: If the substition shifts every letter one to the rigth (that
+is A -> B, B -> C and so on), then the substitution should be given as
+"789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456".
 
 ```
 XLIL7G5IMET7DFQIEXS03XLITIDXSM757ZS3N0Z7D5IDELFW7DSXLIMSDIOSXG74OLXXSN73FXE7ZZS9
