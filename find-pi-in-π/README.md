@@ -1,5 +1,5 @@
 # Find pi in π
-
+<img align="right" src="https://tstoaddicts.files.wordpress.com/2014/03/pi-pie.jpg" width="500px">
 MAPS want to build a new computer and have serious storage needs. Sadly, FU
 (Foreningsutvalget) won't provide us the sufficient funds, forcing us to do
 more with less. Given our love of π and computer science, the obvious solution
