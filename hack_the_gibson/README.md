@@ -38,7 +38,7 @@ would be `FRXHEWSCKQLIBVGMUNDTZPJAOY`.
 In the ciphertext below spaces and line breaks are the same as in the
 plaintext.
 
-Hint: The ciphertext below encodes to English and the last word in the
+Hint: The ciphertext below decodes to English and the last word in the
 plaintext is `BEFORE`.
 
 ```
