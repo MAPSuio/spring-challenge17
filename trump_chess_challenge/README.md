@@ -4,8 +4,6 @@ After [falsely stating](http://www.politifact.com/truth-o-meter/statements/2016/
 
 ![](http://images.dailykos.com/images/268584/story_image/Screen_Shot_2016-06-28_at_9.32.26_PM.png?1467224947)
 
-It will have the largest audience to ever witness a chess tournament! Period. To accomplish this, Trump realizes that he needs to invite the highest rated players. He wants to make sure that no other tournament can be held at the same time with equal or higher average rating.
-
 Are you ready to help Trump fulfill his promise, and help him host the Trump Chess Challenge?
 
 Each chess player has his own FIDE Elo Rating. If the rating number is high, then the player is strong. 
