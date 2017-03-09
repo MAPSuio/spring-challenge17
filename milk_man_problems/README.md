@@ -4,7 +4,7 @@
 
 All milkmen are familiar with this classic problem from the Middle Ages:
 
-You are on your daily milk delivery route. But when you get to the last
+You are on your daily milk delivery route, but when you get to the last
 two people, you discover a major problem! Both of them require 6
 liters, but you only have 12, 8 and 5 liter jugs. The 12 liter jug is
 full of milk however, so if you could figure out a way of pouring from
