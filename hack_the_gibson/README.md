@@ -30,8 +30,8 @@ corresponding letter above in the plaintext alphabet. So, *S* becomes
 *G*, *N* becomes *R*, *F* becomes *A*, and so on.
 
 To encrypt or decrypt a whole text we do this for every letter in the
-text. In this example the plaintext "HELLO MAPS" would become the
-ciphertext "CEIIG BFMD".
+text. In this example the plaintext `HELLO MAPS` would become the
+ciphertext `CEIIG BFMD`.
 
 In the ciphertext below the plaintext alphabet
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ" is used. Spaces and line breaks are as in
