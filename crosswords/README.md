@@ -1,6 +1,6 @@
 #Crossword helper
-![Crossword](http://i4.irishmirror.ie/incoming/article2813250.ece/ALTERNATES/s615/cryptic-crossword-img.jpg)
 
+<img src="http://i4.irishmirror.ie/incoming/article2813250.ece/ALTERNATES/s615/cryptic-crossword-img.jpg" align="right" style="width: 250px; margin: 10px;">
 
 Sean loves solving crosswords, but he wants to boost his crossword-solving speed.
 He wants to create a dictionary of common words which can help him when solving
