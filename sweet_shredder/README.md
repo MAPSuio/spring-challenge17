@@ -7,9 +7,9 @@ secretary. Unfortunately, there is not much to do and you are extremly
 bored. You have therefore spent your last two weeks creating a
 beautiful ASCII piece of art inspired by your sweetest client.
 
-Sally-Anne is your enemy. One day, she took your beautiful art and
-shredded it to pieces. You were devestated. Then she picked up the
-pieces and shedded them again!
+Sally-Anne is your enemy. The other day, she took your beautiful art and
+shredded it to strips. You were devestated. Then she picked up the
+strips, rotated them 90 degrees and shedded them into scraps (small rectangles). How awful!
 
 Luckily though, you have managed to collect the scraps in the correct
 order from left to right, top to bottom. Each strip consists of 5
