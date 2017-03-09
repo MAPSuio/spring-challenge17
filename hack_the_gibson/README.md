@@ -41,7 +41,7 @@ You need to find the substitution that encrypted the file below. If it
 was the substitution in the example above that was used, the answer
 would be `FRXHEWSCKQLIBVGMUNDTZPJAOY`.
 
-Hint: The decoded last word in the text is `BEFORE`.
+Hint: The last word in the text decodes to `BEFORE`.
 
 ```
 X RTNAXIXWUZM ZE WJT UMRTHTMRTMNT ZE NPYTIVHXNT
