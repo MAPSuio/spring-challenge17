@@ -28,4 +28,4 @@ natural
 aardvark
 computer
 ```
-And the 4th number in this list would be `computer`
+and the 4th number in this list would be `computer`.
