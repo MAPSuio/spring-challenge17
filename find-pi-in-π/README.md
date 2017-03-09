@@ -13,7 +13,7 @@ suggest that *any* finite sequence of digits can be found somewhere in π; let
 us assume it is so for the rest of the day.
 
 A file is simply a sequence of bits, and this sequence of bits is in turn just
-another representation of a number, thus, any file can be represented as a
+another representation of a number, thus any file can be represented as a
 decimal number. Our file system will find the decimal representation of a given
 file, and simply store the length of the number (i.e. the number of digits) and
 the index of which this number first occurs in π. This last bit is a bit
