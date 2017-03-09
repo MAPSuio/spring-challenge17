@@ -34,7 +34,7 @@ Amina-Joey,Pedro,Amina-6000
 
 indicates that Amina paid 6000 for something that benefitted himself,
 Joey and Pedro. A consequence is that Joey and Pedro owe Amina
-one third of 6000 each. [This](https://gist.githubusercontent.com/arnet95/b60b69259842bbbb42577fff524a08e5/raw/6eccdc73d4eecfaf9c398ea0455099af90cf7c95/vegas_data.txt) is the file containing the input.
+one third of 6000 each. [This](https://gist.githubusercontent.com/arnet95/b60b69259842bbbb42577fff524a08e5/raw/6eccdc73d4eecfaf9c398ea0455099af90cf7c95/vegas_data.txt) is the file containing the input. You may assume that the amount is divisible by the number of benficiaries.
 
 ## Answer format
 
