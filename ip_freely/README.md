@@ -1,6 +1,6 @@
 # IP Freely
 
-<img align="right" src="https://fossbytes.com/wp-content/uploads/2016/10/localhost-127.0.0.1.jpg" width="500px">
+<img src="https://fossbytes.com/wp-content/uploads/2016/10/localhost-127.0.0.1.jpg" align="right" style="width: 400px; margin: 10px;">
 
 The Internet Protocol defines IPv4 addresses to be 32-bits.
 
