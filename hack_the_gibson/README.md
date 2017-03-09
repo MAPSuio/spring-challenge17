@@ -4,44 +4,42 @@
 
 Your name is The Plague and you're in charge of security at The Big
 Corporation. Some stupid kids have just hacked into your system and
-placed an encrypted file on your 400MB hard drive.
+placed an encrypted file on your 400MB hard drive. But don't fear, You
+is here. Being the security expert that you are, you suspect that the
+file has been encrypted with a simple substitution cipher.
 
-But don't fear, You is here. Being the security expert that you are,
-you suspect that the file has been encrypted with a simple
-substitution cipher.
-
-To encrypt and decrypt a substitution is needed. A substitution is a
-permutation of the alphabet. Consider the substitution below as an
-example:
+To encrypt and decrypt, a substitution is needed. A substitution is a
+permutation of the plaintex alphabet. Consider the substitution below
+as an example:
 
 ```
 Plaintext alphabet:   ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Ciphertext alphabet:  FRXHEWSCKQLIBVGMUNDTZPJAOY
 ```
 
-To encrypt a letter, we find the position of the letter in the
-plaintext alphabet and find the corresponding letter directly below in
-the ciphertext alphabet. For example, the letter *G* is substituted
-with *S* when encrypting.
+To encrypt a letter, find the position of the letter in the plaintext
+alphabet and find the corresponding letter directly below in the
+ciphertext alphabet. For example, the letter *G* is substituted with
+*S* when encrypting.
 
-To decrypt a letter, we do the opposite. We find the position of the
-letter we want to decrypt in the ciphertext alphabet and find the
-corresponding letter above in the plaintext alphabet. So, *S* becomes
-*G*, *N* becomes *R*, *F* becomes *A*, and so on.
+To decrypt a letter, do the opposite: Find the position of the letter
+ in the ciphertext alphabet and find the corresponding letter directly
+ above in the plaintext alphabet. In the example above, *S* decrypts
+ to *G*, *N* to *R*, and so on.
 
-To encrypt or decrypt a whole text we do this for every letter in the
-text. In this example the plaintext `HELLO MAPS` would become the
+The whole text can then be encrypted or decrypted by doing this for
+every letter. In the example the plaintext `HELLO MAPS` becomes the
 ciphertext `CEIIG BFMD`.
-
-In the ciphertext below the plaintext alphabet
-`ABCDEFGHIJKLMNOPQRSTUVWXYZ` is used. Spaces and line breaks are as in
-the original plaintext. And the plaintext is written in English.
 
 You need to find the substitution that encrypted the file below. If it
 was the substitution in the example above that was used, the answer
 would be `FRXHEWSCKQLIBVGMUNDTZPJAOY`.
 
-Hint: The last word in the cipher below decodes to `BEFORE`.
+In the ciphertext below spaces and line breaks are the same as in the
+plaintext.
+
+Hint: The ciphertext below encodes to English and the last word in the
+plaintext is `BEFORE`.
 
 ```
 X RTNAXIXWUZM ZE WJT UMRTHTMRTMNT ZE NPYTIVHXNT
