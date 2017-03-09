@@ -34,14 +34,14 @@ text. In this example the plaintext `HELLO MAPS` would become the
 ciphertext `CEIIG BFMD`.
 
 In the ciphertext below the plaintext alphabet
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ" is used. Spaces and line breaks are as in
+`ABCDEFGHIJKLMNOPQRSTUVWXYZ` is used. Spaces and line breaks are as in
 the original plaintext. And the plaintext is written in English.
 
 You need to find the substitution that encrypted the file below. If it
 was the substitution in the example above that was used, the answer
-would be "FRXHEWSCKQLIBVGMUNDTZPJAOY".
+would be `FRXHEWSCKQLIBVGMUNDTZPJAOY`.
 
-Hint: The decoded last word in the text is "BEFORE".
+Hint: The decoded last word in the text is `BEFORE`.
 
 ```
 X RTNAXIXWUZM ZE WJT UMRTHTMRTMNT ZE NPYTIVHXNT
