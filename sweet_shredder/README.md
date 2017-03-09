@@ -1,5 +1,7 @@
 # Sweet Shredder
 
+<img align="right" src="http://www.pd4pic.com/images/trash-trashcan-recycle-bin-shredder-delete-erase.png" width="300px">
+
 Your name is Mary and you work at the biggest lawfirm in town as a
 secretary. Unfortunately, there is not much to do and you are extremly
 bored. You have therefore spent your last two weeks creating a
