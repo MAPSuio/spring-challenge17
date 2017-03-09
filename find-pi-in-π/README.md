@@ -6,7 +6,7 @@ more with less. Given our love of π and computer science, the obvious solution
 to this problem is to develop a file system based on π which better fits with
 our storage needs and limited funds.
 
-π is an irrational number, meaning there are an infinite number of digits in π.
+π is an irrational number, thus there are an infinite number of digits in π.
 In addition, π seems to be randomly distributed, informally meaning that what
 digit is located in position `i` is anyone's guess. These two observations seem to
 suggest that *any* finite sequence of digits can be found somewhere in π; let
