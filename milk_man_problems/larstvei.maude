@@ -1,0 +1,26 @@
+mod MILK is
+    including NAT .
+
+    sort Jug .
+    sort Jugs .
+    subsort Jug < Jugs .
+
+    op none : -> Jug [ctor] .
+    op [_ _] : Nat Nat -> Jug [ctor] .
+    op _ _ : Jugs Jugs -> Jugs [ctor id: none assoc comm] .
+
+    var J : Jugs .
+    vars X Y N M  : Nat .
+
+    crl [empty] :
+        [X N] [Y M] J
+    =>
+        [0 N] [(Y + X) M] J
+    if (Y + X) <= M .
+
+    crl [pour] :
+        [X N] [Y M] J
+      =>
+        [sd(X, sd(M, Y)) N] [M M] J
+      if X + Y > M .
+endm
