@@ -1,6 +1,6 @@
 # Nasty NASA
 
-<img align="right" src="http://www.sportys.com/media/catalog/product/9/2/9238_4.jpg" width="500px">
+<img src="http://www.sportys.com/media/catalog/product/9/2/9238_4.jpg" align="right" style="width: 300px; margin: 10px;">
 
 You have applied for the prestigious job as an astronaut for NASA. You will need to man a spacecraft, which is a terribly complex task. You will also need to deal with other astronauts on the spacecraft. Therefore NASA gives you this problem on the job interview, to see if you are up for the task:
 
