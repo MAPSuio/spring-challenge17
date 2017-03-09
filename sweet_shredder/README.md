@@ -13,7 +13,7 @@ Luckily though, you have managed to collect the scraps in the correct
 order from left to right, top to bottom. Each strip consists of 5
 pixels and can be found below. The original artwork was 200 pixels
 wide and 200 pixel tall. So you know that there will be 40 strips on
-each row. From the top the 41th strip is the first five pixels of the
+each row. From the top, the 41th strip is the first five pixels of the
 second row.
 
 Your task: Reassemble the artwork and find the name of your sweetest
