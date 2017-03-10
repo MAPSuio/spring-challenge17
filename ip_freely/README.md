@@ -1,12 +1,12 @@
 # IP Freely
 
-<img src="https://fossbytes.com/wp-content/uploads/2016/10/localhost-127.0.0.1.jpg" align="right" style="width: 400px; margin: 10px;">
+<img src="image.jpg" align="right" width="250px" style="margin: 10px;">
 
 The Internet Protocol defines IPv4 addresses to be 32-bits.
 
-They are usually written in [human-readable notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing), but can also be
-written as plain integers. For example: The IP address 171.173.222.237
-corresponds to the unsigned 32-bit decimal integer 2880298733.
+They are usually written in [human-readable notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing), but can also be written as plain integers. For example:
+The IP address 171.173.222.237 corresponds to the unsigned 32-bit
+decimal integer 2880298733.
 
 Below is a list of reserved IP address ranges. What is the sum of all
 non-reserved IP addresses as a decimal integer?
