@@ -1,28 +1,44 @@
 # Trump Chess Challenge
 
-After [falsely stating](http://www.politifact.com/truth-o-meter/statements/2016/oct/14/donald-trump/donald-trump-wrongly-maligns-us-chess-prowess/) that the US has no chess grandmasters, Trump lost popularity in the chess community. Sad! Now he is going to make America great again by hosting the best chess tournament the world has ever seen! It's going to be tremendous. Really. The best.
+<img src="image.png" align="right" width="250px" style="margin: 10px;">
 
-![](http://images.dailykos.com/images/268584/story_image/Screen_Shot_2016-06-28_at_9.32.26_PM.png?1467224947)
+After [falsely stating](http://www.politifact.com/truth-o-meter/statements/2016/oct/14/donald-trump/donald-trump-wrongly-maligns-us-chess-prowess/) that the US has no chess
+grandmasters, Trump lost popularity in the chess community. Sad! Now
+he is going to make America great again by hosting the best chess
+tournament the world has ever seen! It's going to be tremendous.
+Really. The best.
 
-Are you ready to help Trump fulfill his promise, and help him host the Trump Chess Challenge?
+Are you ready to help Trump fulfill his promise, and help him host the
+Trump Chess Challenge?
 
-Each chess player has his own FIDE Elo Rating. If the rating number is high, then the player is strong. 
-E.g. Magnus Carlsen has rating 2838.0.
+Each chess player has his own FIDE Elo Rating. If the rating number is
+high, then the player is strong. E.g. Magnus Carlsen has rating
+2838.0.
 
-The strength of the tournament is determined by calculating the average rating of all players in the tournament.
+The strength of the tournament is determined by calculating the
+average rating of all players in the tournament.
 
 Trump has made the following requirements:
 
-1. Only players that are among the top 25 highest rated in the world will be invited. 
-2. The average tournament rating must be so high, that there cannot be another tournament running in parallell with the Trump Chess Challenge, with higher average rating. Aka: The Trump Chess Challenge must be guaranteed to be the strongest tournament in the world at that time.
+1. Only players that are among the top 25 highest rated in the world
+   will be invited.
+2. The average tournament rating must be so high, that there cannot be
+   another tournament running in parallell with the Trump Chess
+   Challenge, with higher average rating. Aka: The Trump Chess
+   Challenge must be guaranteed to be the strongest tournament in the
+   world at that time.
 
-In addition to this, the rules state that a tournament must have at least two players to be called a tournament.
-And also, if any other tournament is held at the same time, including a player not in the top 25, Trump doesn't mind.
+In addition to this, the rules state that a tournament must have at
+least two players to be called a tournament. And also, if any other
+tournament is held at the same time, including a player not in the top
+25, Trump doesn't mind.
 
-Given the top 25 currently highest rated players in the world, how many possible ways is there of inviting players, such that Trumps requirements are satisfied?
-You may assume that no players have the same rating.
+Given the top 25 currently highest rated players in the world, how
+many possible ways is there of inviting players, such that Trumps
+requirements are satisfied? You may assume that no players have the
+same rating.
 
-| Player         | Rating |
+| Player          | Rating   |
 | --------------- |:--------:|
 | Carlsen         |   2838.0 |
 | So              |   2822.0 |
