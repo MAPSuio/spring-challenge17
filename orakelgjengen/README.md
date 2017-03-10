@@ -1,24 +1,23 @@
 # Orakelgjengen
 
 Machine Learning is super hot right now, and you're finally getting in on
-the action. You have just been hired by the Oslo-based startup "Orakelgjengen",
-and after having signed 18 Non-Disclosure Agreements their CTO lets you in
-their secret method –– the crown jewel of the company's intellectual property.
-The method is as follows:
+the action. You have just been hired by the Oslo-based startup
+"Orakelgjengen", and after having signed 18 Non-Disclosure Agreements their
+CTO lets you in their secret method –– the crown jewel of the company's
+intellectual property. The method is as follows:
 
 1. Clean up the customer's data
 2. Use Simple Linear Regression to predict future values
 
-However, some customers have been complaining lately that
-Orakelgjengen's service ("You Can Haz A Unicorn Rainbow 1.0") isn't
-really predicting much. Desperate not to scare off future customers,
-Orakelgjengen wants to make sure that their method works well for all
-future customers. They do so by requiring that all potential future
-customers provide a data sample that Orakelgjengen can check their
-method on before making any deals. Your task is to determine which
-customers are likely to get interesting predictions from Orakelgjengen
-by scoring how likely Orakelgjengen's simple linear model will account for
-the variability in the customer's data.
+However, some customers have been complaining lately that Orakelgjengen's
+service ("You Can Haz A Unicorn Rainbow 1.0") isn't really predicting much.
+Desperate not to scare off future customers, Orakelgjengen wants to make
+sure that their method works well for all future customers. They do so by
+requiring that all potential future customers provide a data sample that
+Orakelgjengen can check their method on before making any deals. Your task
+is to determine which customers are likely to get interesting predictions
+from Orakelgjengen by scoring how likely Orakelgjengen's simple linear
+model will account for the variability in the customer's data.
 
 You are given a table on the following form:
 
@@ -31,8 +30,8 @@ You are given a table on the following form:
 | B          | 43.201 | 45.45 |
 | ...        | ...    | ...   |
 
-The first column indicates which company the data is associated with.
-The second column gives an X value and the third column gives a Y value.
+The first column indicates which company the data is associated with. The
+second column gives an X value and the third column gives a Y value.
 
 Your job is to, given [this table](https://gist.githubusercontent.com/arnet95/a6416de8261cbea229a18e2e6fa697ed/raw/ca119b9ddad2f96d877a4f3e5876dd7995791a69/orakelgjengen_data.txt) of company data
 
