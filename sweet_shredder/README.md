@@ -1,6 +1,6 @@
 # Sweet Shredder
 
-<img src="image.jpg" align="right" width="250px" style="margin: 10px;">
+<img src="image.png" align="right" width="250px" style="margin: 10px;">
 
 Your name is Mary and you work at the biggest lawfirm in town as a
 secretary. Unfortunately, there is not much to do and you are extremly
