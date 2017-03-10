@@ -1,29 +1,33 @@
 # Post-Vegas Woes
 
-![vegas](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Welcome_to_Fabulous_Las_Vegas.jpg/2560px-Welcome_to_Fabulous_Las_Vegas.jpg)
+<img src="image.jpg" align="right" width="250px" style="margin: 10px;">
 
 Wow – what a weekend! You're not really sure what happened there, but
-you (Amina) and your two friends (Pedro and Joey) have arrived
-home from Vegas and the hour of judgement is upon you: As you forgot
-to continuously Vipps each other during the trip, you're stuck with a
+you (Amina) and your two friends (Pedro and Joey) have arrived home
+from Vegas and the hour of judgement is upon you: As you forgot to
+continuously Vipps each other during the trip, you're stuck with a
 horror-inducingly long list of transactions and the burning question:
 Who owes whom, and how much?
 
-You quickly realize that you cannot simply go through every transaction
-and send the corresponding money: Even though Vipps is free, you're
-going to spend an awfully long time typing numbers into the app, when in
-reality, only a few large transactions should be needed to settle
-the balance.
+You quickly realize that you cannot simply go through every
+transaction and send the corresponding money: Even though Vipps is
+free, you're going to spend an awfully long time typing numbers into
+the app, when in reality, only a few large transactions should be
+needed to settle the balance.
 
-It turns out that the balance can be settled with only *two* transactions.
-Your job is to find the two smallest transactions that settles the balance.
+It turns out that the balance can be settled with only *two*
+transactions. Your job is to find the two smallest transactions that
+settles the balance.
 
 ## Input Format
 
-The input consists of several lines, where each line represents a transaction.
+The input consists of several lines, where each line represents a
+transaction.
 
-* The first entry before the `-` shows the name of the person who paid the expense
-* The second entry contains a comma-separated list of the ones who benefitted
+* The first entry before the `-` shows the name of the person who paid
+  the expense
+* The second entry contains a comma-separated list of the ones who
+  benefitted
 * The third entry contains the amount
 
 For example, the entry
@@ -33,8 +37,10 @@ Amina-Joey,Pedro,Amina-6000
 ```
 
 indicates that Amina paid 6000 for something that benefitted himself,
-Joey and Pedro. A consequence is that Joey and Pedro owe Amina
-one third of 6000 each. [This](https://gist.githubusercontent.com/arnet95/b60b69259842bbbb42577fff524a08e5/raw/6eccdc73d4eecfaf9c398ea0455099af90cf7c95/vegas_data.txt) is the file containing the input. You may assume that the amount is divisible by the number of benficiaries.
+Joey and Pedro. A consequence is that Joey and Pedro owe Amina one
+third of 6000 each. [This](input.in) is the file containing the input.
+You may assume that the amount is divisible by the number of
+benficiaries.
 
 ## Answer format
 
