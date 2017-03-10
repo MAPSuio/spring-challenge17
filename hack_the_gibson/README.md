@@ -1,6 +1,6 @@
 # Hack the Gibson
 
-<img src="http://ninjaselection.com/wp-content/uploads/2016/03/Hackers-1995.jpg" style="width: 100%; margin: 10px;">
+<img src="image.jpg" align="right" width="250px" style="margin: 10px;">
 
 Your name is The Plague and you're in charge of security at The Big
 Corporation. Some stupid kids have just hacked into your system and
@@ -20,10 +20,10 @@ Ciphertext alphabet:  FRXHEWSCKQLIBVGMUNDTZPJAOY
 To encrypt a letter, find the position of the letter in the plaintext
 alphabet and find the corresponding letter directly below in the
 ciphertext alphabet. For example, the letter *G* is substituted with
-*S* when encrypting. To decrypt a letter, do the opposite: Find the position of the letter
- in the ciphertext alphabet and find the corresponding letter directly
- above in the plaintext alphabet. In the example above, *S* decrypts
- to *G*, *N* to *R*, and so on.
+*S* when encrypting. To decrypt a letter, do the opposite: Find the
+position of the letter in the ciphertext alphabet and find the
+corresponding letter directly above in the plaintext alphabet. In the
+example above, *S* decrypts to *G*, *N* to *R*, and so on.
 
 The whole text can then be encrypted or decrypted by doing this for
 every letter. In the example the plaintext `HELLO MAPS` becomes the
