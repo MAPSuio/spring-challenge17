@@ -1,4 +1,4 @@
-# MAPS Spring Challenge 2016
+# MAPS Spring Challenge 2017
 
 This repository holds the problems, answers and suggested
 solutions for the MAPS Spring Challenge, held at UiO on
