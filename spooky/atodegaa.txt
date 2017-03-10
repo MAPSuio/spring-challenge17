@@ -1,1 +1,3 @@
-This can be solved by using a date library in some language, but can more easily (?) be solved by finding a website with yearly calendars, and checking what day October 13 is.
+This can be solved by using a date library in some language, but can
+more easily (?) be solved by finding a website with yearly calendars,
+and checking what day October 13 is.
