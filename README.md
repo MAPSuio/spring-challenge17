@@ -53,3 +53,24 @@ in addition, former MAPS members who contributed were
 | 25 | SaraHH   | 0     | 0 |
 | 26 | emiost   | 0     | 0 |
 | 27 | fuglogfisk   | 0     | 0 |
+
+### Problem Statistics
+
+| Problem title         | Solved by | Average | Highest | Lowest |
+|-----------------------|-----------|---------|---------|--------|
+| Crossword helper      | 13        | 9.31    | 10      | 7      |
+| Find pi in π          | 8         | 8.88    | 10      | 7      |
+| Hack the Gibson       | 8         | 9.50    | 10      | 8      |
+| IP Freely             | 1         | 10.00   | 10      | 10     |
+| MAPS Days             | 7         | 8.57    | 10      | 3      |
+| Milk Man Problems     | 2         | 10.00   | 10      | 10     |
+| Nasty NASA            | 1         | 8.00    | 8       | 8      |
+| Orakelgjengen         | 1         | 9.00    | 9       | 9      |
+| Post-Vegas Woes       | 4         | 9.00    | 10      | 7      |
+| Pretty palindromes    | 17        | 8.59    | 10      | 4      |
+| Prime numbers         | 2         | 10.00   | 10      | 10     |
+| Pyramid               | 11        | 8.91    | 10      | 4      |
+| Spooky                | 15        | 10.00   | 10      | 10     |
+| Sweet Shredder        | 10        | 9.60    | 10      | 6      |
+| Trump Chess Challenge | 0         | 0       |         |        |
+| Warmup                | 19        | 9.84    | 10      | 8      |
